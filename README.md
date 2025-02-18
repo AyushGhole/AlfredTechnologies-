@@ -5,7 +5,7 @@
 </b>
 After the user submits the login form, the app verifies their credentials and redirects them to the Flashcard List page (/flashcards) upon successful authentication. React Router ensures smooth navigation between Login, Signup, and Flashcard pages. To implement this, install React Router using npm install react-router-dom, update App.js to define routes, and modify Login.js to handle redirection after a successful login. This setup provides a seamless user experience by managing authentication and page transitions efficiently.
 <br>
-<hr>
+
 
 <h2><b>SetUp : </b></h2>
 <br>
@@ -34,7 +34,7 @@ cd ../frontend<br>
 npm install<br><br>
 
 This installs:
-<br><br>
+<br>
 React.js – Frontend framework <br>
 Axios – Handles API requests<br>
 React Router – Enables navigation between pages<br>
@@ -54,7 +54,7 @@ The backend requires a .env file to store database and server configurations.<br
 <br>
 
 <h4><b>4️⃣ Start the Application : </b></h4> <br><br>
-<b>📌 Start the Backend (Express Server) : </b><br><br>
+<b>📌 Start the Backend (Express Server) : </b><br>
 cd backend<br>
 nodemon app.js<br>
 <br>
@@ -62,7 +62,7 @@ nodemon app.js<br>
 cd frontend <br>
 npm run dev <br>
 
-<h4><b>🎯 Next Steps</b><br><br></h4>
+<h4><b>🎯 Next Steps</b><br></h4>
 🚀 If everything works, you can start adding more features, deploying the app, or customizing the UI.
 Let me know if you need any help! 😊
 
