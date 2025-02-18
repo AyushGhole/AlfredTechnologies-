@@ -41,7 +41,7 @@ React Router – Enables navigation between pages<br>
 Tailwind/Bootstrap – Styling libraries<br>
 <br>
 
-<h4><b>📌 Create a .env file in the backend folder</b></h4>h4> <br>
+<h4><b>📌 Create a .env file in the backend folder</b></h4> <br>
 cd backend<br>
 touch .env<br>
 <h4><b>3️⃣ Configure Environment Variables : </b></h4><br>
