@@ -6,8 +6,7 @@
 After the user submits the login form, the app verifies their credentials and redirects them to the Flashcard List page (/flashcards) upon successful authentication. React Router ensures smooth navigation between Login, Signup, and Flashcard pages. To implement this, install React Router using npm install react-router-dom, update App.js to define routes, and modify Login.js to handle redirection after a successful login. This setup provides a seamless user experience by managing authentication and page transitions efficiently.
 <br>
 <hr>
-<img src="/public/login.png" alt="loginPage" >
-<img src="public/signup.png" alt="singUpPage" >
+
 <h2><b>SetUp : </b></h2>
 <br>
 
