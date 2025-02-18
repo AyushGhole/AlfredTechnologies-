@@ -9,8 +9,7 @@ After the user submits the login form, the app verifies their credentials and re
 
 <h2><b>SetUp : </b></h2>
 <br>
-
-<h4><b>1️⃣ Prerequisites : </b></h4>h4> <br>
+<h4><b>1️⃣ Prerequisites : </b></h4><br>
 Before starting, ensure you have the following installed: <br>
 ✅ Node.js (LTS version recommended)<br>
 ✅ MongoDB (Cloud or Local) <br>
