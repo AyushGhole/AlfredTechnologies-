@@ -1,0 +1,118 @@
+/* 🌟 Background Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-radius: 5px;
+  background: linear-gradient(to right, #3b82f6, #9333ea, #ec4899);
+}
+
+/*  Glassmorphic Card */
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+  padding: 32px;
+  width: 380px;
+  text-align: center;
+  transition: transform 3s ease-in-out, box-shadow 3s ease-in-out;
+}
+
+/* Hover effect for a slight 3D feel */
+.login-card:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* 🌟 Title & Subtitle */
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* 🌟 Error Message */
+.error-text {
+  color: #f87171;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* 🌟 Input Fields */
+.input-group {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 95%;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+  color: white;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Add focus effect */
+.input-group input:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 🌟 Buttons */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background: #9333ea;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(147, 51, 234, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.login-button:hover {
+  background: #7e22ce;
+  transform: scale(1.02);
+}
+
+/* 🌟 Sign Up Link */
+.signup-text {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.signup-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none ;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.signup-link:hover {
+  text-decoration: underline;
+}
